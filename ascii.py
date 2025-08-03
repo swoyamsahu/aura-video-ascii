@@ -4,6 +4,8 @@ from PIL import Image, ImageEnhance, ImageFilter
 import time
 import sys
 import os
+import pygame
+import threading
 
 # Configuration
 VIDEO_PATH = "aura.mp4"
@@ -78,9 +80,20 @@ def play_ascii_video(ascii_frames):
                 time.sleep(delay)
     except KeyboardInterrupt:
         print("\n\033[1;32mThank you for cloning the Aura Farming ASCII video player! 😂\033[0m")
+
+def play_audio():
+    pygame.mixer.init()
+    pygame.mixer.music.load("aura.mp3")
+    pygame.mixer.music.play()
+    while pygame.mixer.music.get_busy():
+        pygame.time.Clock().tick(10)
+
 def main():
     ascii_frames = extract_frames()
+    audio_thread = threading.Thread(target=play_audio)
+    audio_thread.start()
     play_ascii_video(ascii_frames)
+    audio_thread.join()
 
 if __name__ == "__main__":
     main()
