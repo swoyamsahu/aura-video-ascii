@@ -69,7 +69,7 @@ MAX_DURATION = 12              # Maximum duration in seconds (set to None for fu
 aurafarming/
 ├── ascii.py              # Main ASCII video player script
 ├── requirements.txt      # Python dependencies
-├── 1751520327557.mp4    # Sample video file
+├── aura.mp4    # Sample video file
 └── README.md            # This file
 ```
 
@@ -135,3 +135,4 @@ If you find this Aura Farming ASCII video player cool and useful, please conside
 **Made with love for the terminal art community**
 
 *Transform your aura farming videos into ASCII magic!*
+
