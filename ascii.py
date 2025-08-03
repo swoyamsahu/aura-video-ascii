@@ -78,9 +78,6 @@ def play_ascii_video(ascii_frames):
                 time.sleep(delay)
     except KeyboardInterrupt:
         print("\n\033[1;32mThank you for cloning the Aura Farming ASCII video player! 😂\033[0m")
-        print("If you enjoyed this project, please give the repo a star:")
-        print("https://github.com/iamnaheem/aura-video-ascii\n")
-
 def main():
     ascii_frames = extract_frames()
     play_ascii_video(ascii_frames)
