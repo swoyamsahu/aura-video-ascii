@@ -6,7 +6,7 @@ import sys
 import os
 
 # Configuration
-VIDEO_PATH = "1751520327557.mp4"
+VIDEO_PATH = "aura.mp4"
 WIDTH = 48
 HEIGHT = 42
 FPS = 10
