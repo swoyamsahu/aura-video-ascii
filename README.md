@@ -1,6 +1,6 @@
-# Aura Farming Video to ASCII
+# meme Farming Video to ASCII
 
-Transform your aura farming videos into stunning ASCII art and watch them play in your terminal! This Python project converts video frames to ASCII characters, creating a unique retro-style video experience right in your command line.
+Transform your meme farming videos into stunning ASCII art and watch them play in your terminal! This Python project converts video frames to ASCII characters, creating a unique retro-style video experience right in your command line.
 
 ## Features
 
@@ -21,8 +21,8 @@ Transform your aura farming videos into stunning ASCII art and watch them play i
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/aurafarming.git
-   cd aurafarming
+   git clone https://github.com/yourusername/memefarming.git
+   cd memefarming
    ```
 
 2. **Install dependencies**
@@ -35,14 +35,14 @@ Transform your aura farming videos into stunning ASCII art and watch them play i
    - Update the `VIDEO_PATH` variable in `ascii.py` to match your video filename
    - Or rename your video to `1751520327557.mp4`
 
-4. **Run the Aura Farming ASCII video player**
+4. **Run the meme Farming ASCII video player**
    ```bash
    python ascii.py
    ```
 
 ## Configuration
 
-You can customize the Aura Farming ASCII video player by modifying these variables in `ascii.py`:
+You can customize the meme Farming ASCII video player by modifying these variables in `ascii.py`:
 
 ```python
 VIDEO_PATH = "your_video.mp4"  # Path to your video file
@@ -66,7 +66,7 @@ MAX_DURATION = 12              # Maximum duration in seconds (set to None for fu
 ## Project Structure
 
 ```
-aurafarming/
+memefarming/
 ├── ascii.py              # Main ASCII video player script
 ├── requirements.txt      # Python dependencies
 ├── 1751520327557.mp4    # Sample video file
@@ -98,7 +98,7 @@ Modify the configuration variables for different effects:
 
 ## Demo
 
-Watch your aura farming videos transform into ASCII art! The player creates a mesmerizing retro-style animation that works on any terminal.
+Watch your meme farming videos transform into ASCII art! The player creates a mesmerizing retro-style animation that works on any terminal.
 
 ## Contributing
 
@@ -115,7 +115,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Support the Project
 
-If you find this Aura Farming ASCII video player cool and useful, please consider giving it a star!
+If you find this meme Farming ASCII video player cool and useful, please consider giving it a star!
 
 **Why star this repo?**
 - Unique video-to-ASCII conversion
@@ -134,4 +134,4 @@ If you find this Aura Farming ASCII video player cool and useful, please conside
 
 **Made with love for the terminal art community**
 
-*Transform your aura farming videos into ASCII magic!*
+*Transform your meme farming videos into ASCII magic!*

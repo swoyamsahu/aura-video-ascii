@@ -8,7 +8,7 @@ import pygame
 import threading
 
 # Configuration
-VIDEO_PATH = "aura.mp4"
+VIDEO_PATH = "meme.mp4"
 WIDTH = 48
 HEIGHT = 42
 FPS = 10
@@ -79,11 +79,11 @@ def play_ascii_video(ascii_frames):
                 sys.stdout.flush()
                 time.sleep(delay)
     except KeyboardInterrupt:
-        print("\n\033[1;32mThank you for cloning the Aura Farming ASCII video player! 😂\033[0m")
+        print("\n\033[1;32mThank you for cloning the meme Farming ASCII video player! 😂\033[0m")
 
 def play_audio():
     pygame.mixer.init()
-    pygame.mixer.music.load("aura.mp3")
+    pygame.mixer.music.load("meme.mp3")
     pygame.mixer.music.play()
     while pygame.mixer.music.get_busy():
         pygame.time.Clock().tick(10)
